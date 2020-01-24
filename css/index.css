@@ -316,6 +316,10 @@ footer {
   display: flex;
   justify-content: center;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #22283A;
+}
 @media ( max-width: 500px ) {
   .home .walk .walk-text {
     width: 100%;
