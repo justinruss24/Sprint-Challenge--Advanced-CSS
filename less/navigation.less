@@ -1,6 +1,6 @@
 // Navigation code here
 .nav-container {
-    width: 100%;
+    .fill();
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -12,6 +12,11 @@
     h1 {
         padding: 1% 0;
     }
+    @media @phone {
+        h1 {
+            margin: 2% 0;
+        }
+    }/*closes navbar media query*/
 }
 .nav-a {
     display: flex;
@@ -23,4 +28,10 @@
         font-size: 1.3rem;
         padding: 2% 0;
     }
+    @media @phone {
+        width: 80%;
+        a {
+            font-size: 1.8rem;
+        }
+    }/*closes nav media query*/
 }
